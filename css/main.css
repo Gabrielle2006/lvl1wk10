@@ -63,3 +63,10 @@ h3{
     font-size: 1.6em;
     padding: 0.5em;
 }
+
+article div{
+    font-size: 36px;
+    padding: 10px;
+    border: 2px solid rgb(255, 209, 140);
+    background-color: beige;
+}
