@@ -70,3 +70,47 @@ article div{
     border: 2px solid rgb(255, 209, 140);
     background-color: beige;
 }
+section:nth-of-type(1){
+padding: 25px;
+}
+section:nth-of-type(1) article{
+display: flex;
+}
+section:nth-of-type(2) article{
+    display: flex;
+    flex-direction: row-reverse;
+}
+section:nth-of-type(3) article{
+    display: flex;
+    justify-content: space-around;
+
+}
+section:nth-of-type(4) article{
+    display: flex;
+}
+section:nth-of-type(4) article div{
+    flex-grow: 1;
+}
+section:nth-of-type(4) article div:nth-of-type(2){
+    flex-grow: 2;
+
+}
+nav ul{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    flex-grow: 1;
+    background-color: cornsilk;
+    display: flex;
+}
+nav ul li a{
+    flex-grow: 1;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul li a:hover{
+ background-color: rgb(143, 101, 49);
+}
